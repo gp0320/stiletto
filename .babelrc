@@ -1,0 +1,29 @@
+
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "loose": true
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": "commonjs"
+          }
+        ]
+      ],
+      "plugins": ["transform-remove-console", "@babel/plugin-transform-runtime"]
+    }
+  },
+  "plugins": ["transform-remove-console", "@babel/plugin-transform-runtime"]
+}
+
+
+
