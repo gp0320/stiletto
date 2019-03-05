@@ -1,4 +1,7 @@
 ## 👠stiletto 工具库
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/gp0320/stiletto.svg)](https://greenkeeper.io/)
+
  穿上它，让项目更高！
 
 ## 基础用法
